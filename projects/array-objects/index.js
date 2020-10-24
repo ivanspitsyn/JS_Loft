@@ -65,7 +65,7 @@ function reduce(array, fn, initial) {
 
 //   for (const name in obj) {
 //     props.push(name.toLocaleUpperCase());
-//   }
+//   }111
 //   return props
 // }
 
@@ -82,7 +82,7 @@ function upperProps(obj) {
    const obj = createProxy({});
    obj.foo = 2;
    console.log(obj.foo); // 4
- */
+ */ 111;
 function createProxy(obj) {
   return new Proxy(obj, {
     set(obj, key, value) {
